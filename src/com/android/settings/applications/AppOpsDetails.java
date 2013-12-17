@@ -30,6 +30,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.PermissionGroupInfo;
 import android.content.pm.PermissionInfo;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
@@ -177,7 +178,7 @@ public class AppOpsDetails extends Fragment {
         mPm = getActivity().getPackageManager();
         mInflater = (LayoutInflater)getActivity().getSystemService("layout_inflater");
         mAppOps = (AppOpsManager)getActivity().getSystemService("appops");
-
+        
         retrieveAppEntry();
 
         setHasOptionsMenu(true);
@@ -190,6 +191,7 @@ public class AppOpsDetails extends Fragment {
         mRootView = view;
         mOperationsSection = (LinearLayout)view.findViewById(R.id.operations_section);
         return view;
+        
     }
 
     @Override

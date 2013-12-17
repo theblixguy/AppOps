@@ -334,11 +334,14 @@ public class AppOpsCategory extends ListFragment implements
     private void startApplicationDetailsActivity() {
         // start new fragment to display extended information
         Bundle args = new Bundle();
-        args.putString(AppOpsDetails.ARG_PACKAGE_NAME, mCurrentPkgName);
-
-        PreferenceActivity pa = (PreferenceActivity)getActivity();
-        pa.startPreferencePanel(AppOpsDetails.class.getName(), args,
-                R.string.app_ops_settings, null, this, RESULT_APP_DETAILS);
+        args.putString("package", mCurrentPkgName);
+        Intent intent = new Intent(getActivity(), com.ssrij.appops.AppDetail.class);
+        intent.putExtras(args);
+        startActivity(intent);
+        
+        //PreferenceActivity pa = (PreferenceActivity)getActivity();
+        //pa.startPreferencePanel(AppOpsDetails.class.getName(), args,
+                //R.string.app_ops_settings, null, this, RESULT_APP_DETAILS);
     }
     
     @Override public void onListItemClick(ListView l, View v, int position, long id) {
