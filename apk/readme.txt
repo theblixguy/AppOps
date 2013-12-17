@@ -1,0 +1,1 @@
+Move the apk (DO NOT INSTALL) to the system/priv-app (or system/app if you dont have a priv-app folder) and set permissions to 777 and then reboot!
