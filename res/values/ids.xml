@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="all_details">false</item>
+    <item type="id" name="app_snippet">false</item>
+    <item type="id" name="operations_section">false</item>
+    <item type="id" name="op_icon">false</item>
+    <item type="id" name="op_name">false</item>
+    <item type="id" name="op_time">false</item>
+    <item type="id" name="switchWidget">false</item>
+    <item type="id" name="app_icon">false</item>
+    <item type="id" name="app_name">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="tabs">false</item>
+    <item type="id" name="app_on_sdcard">false</item>
+    <item type="id" name="app_size">false</item>
+    <item type="id" name="app_disabled">false</item>
+</resources>

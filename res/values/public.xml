@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020000" />
+    <public type="layout" name="manage_applications_item" id="0x7f030001" />
+    <public type="layout" name="app_ops_details" id="0x7f030002" />
+    <public type="layout" name="app_ops_details_item" id="0x7f030003" />
+    <public type="layout" name="app_ops_item" id="0x7f030004" />
+    <public type="layout" name="app_ops_summary" id="0x7f030005" />
+    <public type="string" name="app_name" id="0x7f050001" />
+    <public type="string" name="app_ops_settings" id="0x7f050002" />
+    <public type="string" name="version_text" id="0x7f050003" />
+    <public type="string" name="app_ops_running" id="0x7f050004" />
+    <public type="string" name="app_ops_never_used" id="0x7f050005" />
+    <public type="array" name="app_ops_categories" id="0x7f060000" />
+    <public type="array" name="app_ops_summaries" id="0x7f060001" />
+    <public type="array" name="app_ops_labels" id="0x7f060002" />
+    <public type="style" name="AppBaseTheme" id="0x7f070000" />
+    <public type="style" name="AppTheme" id="0x7f070001" />
+    <public type="id" name="all_details" id="0x7f090001" />
+    <public type="id" name="app_snippet" id="0x7f090002" />
+    <public type="id" name="operations_section" id="0x7f090003" />
+    <public type="id" name="op_icon" id="0x7f090005" />
+    <public type="id" name="op_name" id="0x7f090006" />
+    <public type="id" name="op_time" id="0x7f090007" />
+    <public type="id" name="switchWidget" id="0x7f090008" />
+    <public type="id" name="app_icon" id="0x7f090009" />
+    <public type="id" name="pager" id="0x7f09000b" />
+    <public type="id" name="tabs" id="0x7f09000c" />
+
+</resources>
