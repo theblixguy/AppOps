@@ -4,5 +4,5 @@ Independent AppOps app, recompiled from latest AOSP source with necessary change
 
 Requirements:
 
-1. Android device with Android 4.3 or above
+1. Android device with Android 4.3+
 
