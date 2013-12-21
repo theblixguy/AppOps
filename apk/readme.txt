@@ -1,1 +1,2 @@
-Move the apk (DO NOT INSTALL) to the system/priv-app (or system/app if you dont have a priv-app folder) and set permissions to 777 and then reboot!
+If you're on 4.4, then move the apk (DO NOT INSTALL) to system/priv-app folder and set permissions to 777 and then reboot!
+If you're on 4.3, then move the app (DO NOT INSTALL) to system/app folder and set permissions to 777 and then reboot!
